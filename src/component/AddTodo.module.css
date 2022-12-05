@@ -1,0 +1,44 @@
+.add_todo {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #00000026;
+  height: 100px;
+  padding: 20px;
+  border-radius: 3px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.add_todo-input {
+  height: 46%;
+  display: flex;
+}
+.add_todo-input svg {
+  width: 34px;
+  padding: 11.5px;
+  height: 50%;
+  background-color: rgb(22, 163, 183);
+  color: white;
+  border-radius: 5px 0 0 5px;
+}
+.add_todo-input input {
+  padding: 0;
+  width: 100%;
+  border: 1px solid #0000004f;
+  padding-left: 20px;
+  border-radius: 0 5px 5px 0;
+}
+.add_todo-input input:focus-visible {
+  outline: none;
+}
+.add_todo > button {
+  background-color: rgb(22, 163, 183);
+  height: 43%;
+  border: none;
+  font-style: italic;
+  font-size: 16px;
+  color: white;
+  border-radius: 5px;
+}
+.add_todo > button:hover {
+  opacity: 0.75;
+}
